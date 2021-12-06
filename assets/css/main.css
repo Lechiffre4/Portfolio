@@ -1562,9 +1562,10 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				margin-bottom : 25px;
 			}
 
-			#main article .close {
+			/*#main article .close {
 				display: block;
 				position: absolute;
 				top: 0;
@@ -1602,7 +1603,7 @@ input, select, textarea {
 
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
-				}
+				}*/
 
 		@media screen and (max-width: 736px) {
 
