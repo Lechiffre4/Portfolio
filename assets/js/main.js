@@ -287,7 +287,7 @@
 			};
 
 		// Articles.
-			$main_articles.each(function() {
+			/*$main_articles.each(function() {
 
 				var $this = $(this);
 
@@ -303,7 +303,7 @@
 						event.stopPropagation();
 					});
 
-			});
+			});*/
 
 		// Events.
 			$body.on('click', function(event) {
