@@ -737,6 +737,26 @@ input, select, textarea {
 
 /* List */
 
+	.decoration
+	{
+		list-style-type: none;
+	}
+
+	.blocklist
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.vl {
+	  border-left: 1px solid white;
+	  height: 135px;
+	  transform : translate(0,-10px);
+	  display: flex;
+	  justify-content: center;
+
+	}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
@@ -944,7 +964,11 @@ input, select, textarea {
 				}
 
 /* Table */
-
+	.recenter{
+		display:flex;
+		justify-content: space-around;
+		
+	}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -954,7 +978,7 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 		width: 100%;
 	}
-
+/*
 		table tbody tr {
 			border: solid 1px #ffffff;
 			border-left: 0;
@@ -1010,6 +1034,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+			*/
 
 /* Button */
 
