@@ -1,0 +1,22 @@
+.competences_columns
+{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.competences{
+    margin: 0;
+}
+
+.center_only
+{
+    display: flex;
+    justify-content: center;
+}
+
+.underline
+{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
