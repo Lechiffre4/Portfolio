@@ -978,7 +978,7 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 		width: 100%;
 	}
-/*
+
 		table tbody tr {
 			border: solid 1px #ffffff;
 			border-left: 0;
@@ -1034,7 +1034,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
-			*/
+			
 
 /* Button */
 
@@ -1600,7 +1600,7 @@ input, select, textarea {
 				margin-bottom : 25px;
 			}
 
-			/*#main article .close {
+			#main article .close {
 				display: block;
 				position: absolute;
 				top: 0;
@@ -1638,7 +1638,7 @@ input, select, textarea {
 
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
-				}*/
+				}
 
 		@media screen and (max-width: 736px) {
 
