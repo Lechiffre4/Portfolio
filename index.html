@@ -59,6 +59,21 @@
 
 						<!-- Work -->
 							<article id="work">
+								<h2 class="major">Alphonse Bot</h2>
+								<span class="image main"><img src="images/alphonse.jpg" alt="" /></span>
+								<p>Alphonse is a small twitter bot that post tweets everyday. For now, he create "Life is ..." sentences with a random word at the end. Due to the randomness of his sentence, he often talks nonsense but we love him anyway.</p>
+								<p>He is made in Python with the Twitter API and the module Tweepy. He is currently hosted on a Raspberry Pi 4.</p>
+								<p>Go to his profile : <a href="https://twitter.com/Alphonse_bot">https://twitter.com/Alphonse_bot</a></p>
+								<div class="divinline">
+									<button onClick="window.location='https://github.com/Lechiffre4/Alphonse_Twitter_Bot'" class="icon brands fa-github">Github</button>
+									<button onClick="window.location='./index.html#maintenanceAlphonseBot'">See the maintenance</button>
+								</div>
+								<br/>
+								<br/>
+							</article>
+
+
+							<article id="work">
 								<h2 class="major">Sport Spots</h2>
 								<span class="image main"><img src="images/SportSpotBanner.png" alt="" /></span>
 								<p>The SportSpots mobile application aims to make it easier for outdoor sports enthusiasts to find “spots” suitable for their favorite sports via a google map. The application is community-based because users who have created an account can add, verify, rate and comment on spots.</p>
@@ -80,20 +95,6 @@
 								<div class="divinline">
 									<button onClick="window.location='https://github.com/cegepmatane/projet-specialise-2022-Lechiffre4'" class="icon brands fa-github">Github</button>
 									<button onClick="window.location='./index.html#maintenanceCinemates'">See the maintenance</button>
-								</div>
-								<br/>
-								<br/>
-							</article>
-
-							<article id="work">
-								<h2 class="major">Alphonse Bot</h2>
-								<span class="image main"><img src="images/alphonse.jpg" alt="" /></span>
-								<p>Alphonse is a small twitter bot that post tweets everyday. For now, he create "Life is ..." sentences with a random word at the end. Due to the randomness of his sentence, he often talks nonsense but we love him anyway.</p>
-								<p>He is made in Python with the Twitter API and the module Tweepy. He is currently hosted on a Raspberry Pi 4.</p>
-								<p>Go to his profile : <a href="https://twitter.com/Alphonse_bot">https://twitter.com/Alphonse_bot</a></p>
-								<div class="divinline">
-									<button onClick="window.location='https://github.com/Lechiffre4/Alphonse_Twitter_Bot'" class="icon brands fa-github">Github</button>
-									<button onClick="window.location='./index.html#maintenanceAlphonseBot'">See the maintenance</button>
 								</div>
 								<br/>
 								<br/>
@@ -145,19 +146,26 @@
 							<h2 class="major">AlphonseBot</h2>
 							<span class="image main"><img src="images/alphonse.jpg" alt="" /></span>
 							<h3>maintenance explanation :</h3>
-							<p>During this maintenance, I add a new feature. Alphonse can know reply to tweets that mention him. When you summon him on a tweet you can 
+							<p>During this maintenance, I add a new feature. Alphonse can now reply to tweets that mention him. When you call him on a tweet (with @Alphonse_bot) you can 
 							   put a hashtag in your tweet. Alphonse will recovers your tweet, extract the hashtag and analyse for you this trend. For that, he use
-							   a really powerfull algorithm of sentiment analysis. He will get the last 250 tweets on this specific hashtag and deduce the current atmosphere.
+							   a really powerfull algorithm of sentiment analysis. He will get the last 250 tweets on this specific hashtag and deduce the current atmosphere on this topic.
 							</p>
 
 							<h3>Technological watch :</h3>
 							<p>
-								During this maintenance, I didn't have many choices. I had to use the python module Textblob. This module can do many things but I only use it
-								for the "sentiment polarity" function that return a float between -1 and 1. The closer the value is to 1, the more cordial the text and 
-								the closer the value is to -1, the more hateful the text.</br>
-								I use this value to create differents sentences for Alphonse.  
+								During this maintenance, I didn't have many choices. I had to use the python module TextBlob.</br></br>
+								TextBlob use an other module from Python called NLTK which means "Natural Language Toolkit" and is used to transform the text to something
+								understandable by the computer.</br>
+								Those modules can do many things but I only use it for the "sentiment polarity" function that return a decimal number between -1 and 1. 
+								The closer the value is to 1, the more cordial the text and the closer the value is to -1, the more hateful the text.</br></br>
+								I use this value to create differents sentences for Alphonse. I write those sentences myself but in the futur I will add a sentences generator
+								to my bot.
 							</p>
-							<button onClick="window.location='https://github.com/Lechiffre4/Alphonse_Twitter_Bot/projects/1'" class="icon brands fa-github">Github</button>
+							
+							<button onClick="window.location='https://github.com/Lechiffre4/Alphonse_Twitter_Bot'" class="icon brands fa-github">Github</button>
+							<h4><center>
+								This project is usable and online but not finished. I will add more and more features in the futur.
+							</center></h4>
 						</article>
 
 						<!-- About -->
