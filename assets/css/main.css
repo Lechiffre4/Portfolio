@@ -710,9 +710,12 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
 			margin: 2.5rem 0;
 			width: 100%;
+			align-content: center;
+			justify-content: center;
+
 		}
 
 			.image.main img {
