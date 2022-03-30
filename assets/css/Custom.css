@@ -48,3 +48,18 @@
     width: 50%;
     height: 50%
 }
+
+.technologiesDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.insideTechnologiesDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
